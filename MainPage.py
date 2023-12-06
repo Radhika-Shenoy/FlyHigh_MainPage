@@ -52,7 +52,7 @@ with tab1:
                     if checkbox_val:
                         if login_button:
                             st.success('Login Successful!')
-                            st.markdown(f'<a href="https://cmseproject-3pttvdumrkrn8bxu2szg7a.streamlit.app"><button>Go to the Authorised Manager website</button></a>', unsafe_allow_html=True)                  
+                            st.markdown(f'<a href="https://flyhighmanager-uwrq7ugrkozw5muz23tugg.streamlit.app"><button>Go to the Authorised Manager website</button></a>', unsafe_allow_html=True)                  
 with tab2:      
     #st.markdown('<p style="color:black; font-weight:bold;">R&D member login</p>', unsafe_allow_html=True) 
     if tab2:        
