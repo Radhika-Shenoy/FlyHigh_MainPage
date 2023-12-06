@@ -70,7 +70,7 @@ with tab2:
         if login_button:
             if username == 'adminuser' and password == 'adminpwd':               
                 if not checkbox_val:
-                    st.error("Please agree that you are an authorized FlyHigh member prior to login")
+                    st.error("Please agree that you are an authorized FlyHigh R&D team member prior to login")
                 if checkbox_val:
                     st.success("Login successful!")
                     st.markdown(f'<a href="https://flyhighrd-4svp9q5k7hdshtpq77oecp.streamlit.app"><button>Go to the Authorised R&D website</button></a>', unsafe_allow_html=True)                  
