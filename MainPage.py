@@ -80,7 +80,7 @@ with tab2:
 with tab3:
     col1,col2 = st.columns([3,3])
     with col1: 
-        st.image("/Users/radhikavittalshenoy/Documents/Radhika Docs/bio_image.jpg")
+        st.image("bio_image.jpg")
     with col2:
         st.markdown('<p style="text-align:justify;font-weight:bold;">Welcome to my Bio Tab! This section offers a glimpse into my world. I\'m currently pursuing a Master\'s in Data Science at MSU, driven by a passion for analyzing and interpreting data. Alongside my academic journey, I indulge in various interests; traveling allows me to explore diverse cultures, cooking diverse cuisines broadens my culinary skills, and practicing yoga helps me maintain a balanced lifestyle. My skills span Python, Data Analysis, and Machine Learning, fueling my enthusiasm for learning new technologies.',unsafe_allow_html = True)
 
