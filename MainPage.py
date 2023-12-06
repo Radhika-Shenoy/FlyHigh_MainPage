@@ -73,7 +73,7 @@ with tab2:
                     st.write("Please agree that you are an authorized FlyHigh member prior to login")
                 if checkbox_val:
                     st.success("Login successful!")
-                    st.markdown(f'<a href="https://cmseproject-3pttvdumrkrn8bxu2szg7a.streamlit.app"><button>Go to the Authorised R&D website</button></a>', unsafe_allow_html=True)                  
+                    st.markdown(f'<a href="https://flyhighrd-4svp9q5k7hdshtpq77oecp.streamlit.app"><button>Go to the Authorised R&D website</button></a>', unsafe_allow_html=True)                  
 
             else:
                 st.error("Invalid username/ password")
