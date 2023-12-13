@@ -61,7 +61,7 @@ with tab2:
         st.markdown('<p style="color:black; font-weight:bold;">Please login to view high level visualization</p>', unsafe_allow_html=True)
         with st.form(key='login_form2'):
             st.subheader('Login Credentials')
-            username = st.text_input('**Enter your FlyHigh admin userID:**',help='Default username: user')
+            username = st.text_input('**Enter your FlyHigh admin userID:**',help='Default username: adminuser')
             #st.markdown('Default username: adminuser')
             password = st.text_input('**Enter your FlyHigh admin password:**', type='password',help='Default password: adminpwd')
             #st.markdown('Default password: adminpwd')
